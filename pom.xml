@@ -628,6 +628,13 @@
       <artifactId>sqlite-jdbc</artifactId>
       <version>3.30.1</version>
     </dependency>
+    <dependency>
+      <groupId>com.gp</groupId>
+      <artifactId>cdh</artifactId>
+      <version>3.0.12</version>
+      <scope>system</scope>
+      <systemPath>${project.basedir}/src/main/resources/jar/greenplum-jdbc-5.1.4.jar</systemPath>
+    </dependency>
   </dependencies>
 
   <build>
