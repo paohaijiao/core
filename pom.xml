@@ -628,6 +628,11 @@
       <artifactId>gp</artifactId>
       <version>4.5.1</version>
     </dependency>
+    <dependency>
+      <groupId>com.dm</groupId>
+      <artifactId>jdbc</artifactId>
+      <version>1.8</version>
+    </dependency>
   </dependencies>
 
   <build>

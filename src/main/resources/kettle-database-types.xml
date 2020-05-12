@@ -239,5 +239,9 @@
     <description>CLICKHOUSE</description>
     <classname>org.pentaho.di.core.database.ClickHouseSQLDatabaseMeta</classname>
   </database-type>
+  <database-type id="DM">
+    <description>国产达梦数据库</description>
+    <classname>org.pentaho.di.core.database.DMSQLDatabaseMeta</classname>
+  </database-type>
 
  </database-types>
